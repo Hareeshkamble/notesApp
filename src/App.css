@@ -6,6 +6,12 @@
   height: 40vmin;
   pointer-events: none;
 }
+body{
+  background: url(/src/download-2.png) center;
+  background-position:fixed;
+  background-repeat: no-repeat;
+ 
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,3 +42,16 @@
     transform: rotate(360deg);
   }
 }
+.fa-trash:hover::after{
+content: "delete";
+font-size: 5px ;
+}
+.fa-edit:hover::after{
+  content: "edit";
+  font-size: 5px ;
+  top: 20px;
+  }
+  
+
+
+  
